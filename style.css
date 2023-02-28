@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, serif;
+    width: 960px;
+    margin: auto;
+}
+
+header{
+    margin-top: 20px;
+    background-color: darkred;
+}
+
+.navbar{
+    display: flex;
+    margin: 0;
+}
+
+.logo{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.logo>a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    margin-left: 58.5%;
+    font-size: 12px;
+}
+
+.menu>ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.menu>ul>li>a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: darkgray;
+}
+
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-news{
+
+    padding: 20px;
+    display: flex;
+    background-color: #aff8f8;
+}
+
+.description{
+    margin: 0 20px 0 20px;
+}
+
+.description>h3{
+    margin: 0;
+}
+
+.main-news-description-text{
+    font-size: 14px;
+}
+
+.latest-news{
+
+}
+
+.latest-news>h3{
+    text-align: center;
+}
+
+.latest-news-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-block{
+    width: 220px;
+    border: 1px solid lightgrey;
+}
+
+.news-block-content{
+    margin: 0 10px 10px 10px;
+}
+
+.news-block-content>h4{
+    margin: 0;
+}
+
+.news-block-content>p{
+    font-size: 14px;
+}
+
+.news-block-content>button{
+    cursor: pointer;
+    padding: 7px 5px;
+    background-color: darkred;
+    color: white;
+    border: none;
+}
